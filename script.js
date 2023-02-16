@@ -34,13 +34,13 @@ function playRound (player, computer) {
     } else if (player === 0 && computer === 2) {
         return "You Win! Rock beats Scissors.";
     } else if (player === 1 && computer === 0) {
-        return "You Win!. Paper beats Rock.";
+        return "You Win! Paper beats Rock.";
     } else if (player === 1 && computer === 2) {
         return "You Lose.";
     } else if (player === 2 && computer === 0) {
         return "You Lose.";
     } else if (player === 2 && computer === 1) {
-        return "You Win!. Scissors beat Paper.";
+        return "You Win! Scissors beat Paper.";
     } else {
         return "It's a Draw. Try again rookie biotch";
     }
@@ -75,13 +75,13 @@ console.log(playRound(player, computer));
 // } else if (player === 0 && computer === 2) {
 //     console.log("You Win! Rock beats Scissors.");
 // } else if (player === 1 && computer === 0) {
-//     console.log("You Win!. Paper beats Rock.");
+//     console.log("You Win! Paper beats Rock.");
 // } else if (player === 1 && computer === 2) {
 //     console.log("You Lose.");
 // } else if (player === 2 && computer === 0) {
 //     console.log("You Lose.");
 // } else if (player === 2 && computer === 1) {
-//     console.log("You Win!. Scissors beat Paper.");
+//     console.log("You Win! Scissors beat Paper.");
 // } else {
 //     console.log("It's a Draw. Try again rookie biotch");
 // }
