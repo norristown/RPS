@@ -86,7 +86,7 @@ Evil Computer wins: ${computerWin}`);
 
 function repeat() {
     for (let i = 0; i < 5; i++){
-    console.log(game());
+        setTimeout(() => {console.log(game())}, 500);
     }
 }
 repeat();
