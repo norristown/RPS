@@ -84,12 +84,12 @@ Your wins: ${playerWin}
 Evil Computer wins: ${computerWin}`);
 }
 
-function repeat() {
+
     for (let i = 0; i < 5; i++){
         setTimeout(() => {console.log(game())}, 500);
     }
-}
-repeat();
+    
+
     
 
     
