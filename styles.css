@@ -1,0 +1,83 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    background-color: silver;
+}
+
+
+.container1 {
+    display: flex;
+    background-color: silver;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(65, 65, 65);
+    margin-top: 1rem;
+}
+
+button, .cpu-box {
+    background-color: #f1f1f1;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+    color: rgb(65, 65, 65);
+    border: solid 5px rgb(65, 65, 65);;
+    border-radius: 25px;
+    transition: all .07s;
+    font-family: monospace;
+}
+
+.highlight {
+    transform: scale(1.1);
+    border-color: rgb(0, 255, 106);
+    color: black;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    align-items: flex-start;
+    flex: 1;
+}
+
+
+
+
+
+.container2 {
+    display: flex;
+}
+
+.cpu, .user, .tie, .result {
+    font-size: 3rem;
+    color: rgb(65, 65, 65);
+    margin: 25px;
+}
+
+.user {
+    margin-top: 50px;
+}
+
+span {
+    font-weight: 800;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
