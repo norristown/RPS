@@ -1,27 +1,38 @@
 <!DOCYTYPE html>
-<hmtl lang = 'en'>
-    <head>
-        <meta charset = 'utf-8'>
-        <title>Rock Paper Scissors</title>
-        <style>
-            div {
-                font-family: monospace;
-                color: bisque; 
-                font-size: 100px;
-                font-weight: 800;
-            }
-            body {
-                background-color: rgb(1, 123, 160);
-                text-align: center;
-            }
-            
-        </style>
-    </head>
+    <hmtl lang='en'>
 
-    <body>
-        <script src="script.js"></script>
-        <div>Press CTRL + SHIFT + J for a real GOOD time >:]</div>
-        <div>Option + Shift + J on Mac ;]</div>
-        <div>Then CTRL +++</div>
-    </body>
-</hmtl>
+        <head>
+            <meta charset='utf-8'>
+            <title>Rock Paper Scissors</title>
+            <link rel="stylesheet" href="styles.css">
+            <script src="script.js" defer></script>
+        </head>
+
+        <body>
+            <div class="container1">
+                Choose one of the following:
+                <div>/// ROCK \\\</div>
+                <div>PAPER</div>
+                <div>/// SCISSORS \\\</div>
+            </div>
+
+            <div class="container2">
+                <div class="left">
+                    <button class="rock">rock</button>
+                    <button class="paper">paper</button>
+                    <button class="scissor">scissor</button>
+                </div>
+                <div class="middle">
+                    <div class="result"></div>
+                    <div class="user">Your score: <span class="score-user">0</span></div>
+                    <div class="cpu">Computer's score: <span class="score-cpu">0</span></div>
+                    <div class="tie">Draws: <span class="draw">0</span></div>
+                </div>
+                <div class="right">
+                    <div class="cpu-box">rock</div>
+                    <div class="cpu-box">paper</div>
+                    <div class="cpu-box">scissor</div>
+                </div>
+            </div>
+        </body>
+    </hmtl>
